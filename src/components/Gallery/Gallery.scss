@@ -1,0 +1,27 @@
+.gallery-component {
+  .gallery-image {
+    display:flex;
+    max-height: 500px;
+      &_left {
+        width: 50%;
+        img{
+          height:100%;
+          padding-right: 5px;
+        }
+      }
+      &_right {
+        width: 50%;
+        img{
+          height:50%;
+          &:first-child {
+            padding-bottom: 5px;
+          }
+        }
+      }
+  }
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+}

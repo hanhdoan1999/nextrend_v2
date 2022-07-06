@@ -1,0 +1,13 @@
+.text-box {
+  width: 100%;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+
+  &_heading {
+    font-size: 20px;
+    line-height: 50px;
+    color: #2c2e35;
+    font-weight: 500;
+  }
+}
